@@ -19,18 +19,12 @@ The key features are:
 
 ## Installation
 
+`py-OCamCalib` is now installed as a Python package in editable mode. This makes it so that you no longer need to manually add the path to the repository to your `sys.path`.
+
+To install the package and its dependencies, run the following command from the root of the `py-OCamCalib` directory:
+
 ```commandline
-git clone https://github.com/jakarto3d/py-OCamCalib.git
-cd py-OCamCalib
-
-# for conda user 
-conda env create --file environment.yml
-conda activate py-OCamCalib
-
-# for virtualenv user 
-python3 -m venv env
-source env/bin/activate
-pip install -r requirements.txt
+pip install -e .
 ```
 
 ## Example
